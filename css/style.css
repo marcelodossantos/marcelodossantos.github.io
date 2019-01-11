@@ -1,13 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 body{
 font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.5em;
 	background: #F0FFF0;
+	background-size:cover;
+	border-image: 100px;
+	background-repeat: repeat;
 
+	background-image: url('../img/mortal4.jpg');
+    background-repeat: repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
 }
+ 	}
 .navbar{
 	border-radius: 5px;
 }
 .carousel-inner{
 	border-radius: 5px;
 }
+.rodape{
+	background-image: url("../img/todos3.png");
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 450px;
+	position: relative;
+	border-radius: 5px;
+}
+.contato{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	position: relative;
+	color: white;
+	font-size: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+	
+}
+.h1{
+	background-color:white;
+	text-align: center;
+}
+
